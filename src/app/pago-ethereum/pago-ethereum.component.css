@@ -1,0 +1,67 @@
+
+.epmaps{
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .container{
+    box-shadow: 0px 3px 20px black;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 700px;
+    height: 340px;
+    text-align: center;
+  }
+  .title{
+    color: #005ba1;
+    font-size: 150%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e1343e;
+  }
+  .form-group, .retirar{
+    margin-top: 20px;
+  }
+  .form-control{
+    width: 50%;
+    height: 30px;
+    font-size: medium;
+    border: 2px solid #005ba1;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  button{
+      text-align: center;
+      padding: 10px;
+      color: rgb(255, 255, 255);
+      transition: 0.4s;
+    background-color: #005ba1;
+    border: none;
+    border-radius: 5px;
+  }
+  button:hover {
+      background-color: #e1343e;
+  }
+  .balance{
+    border-top: 2px solid #807e7e;
+    margin-top: 35px;
+    text-align: left;
+  }
+  .titleBalance{
+    padding: 15px 20px;
+    margin: 10px 400px 0 10px;
+    border: 2px solid #757575;
+    border-radius: 5px;
+  }
+  .actualizar{
+    display: flex;
+    margin-left: 320px;
+    margin-top: -34px;
+  }
+  h3{
+    margin-top: -15px;
+    position: absolute;
+  }
+  

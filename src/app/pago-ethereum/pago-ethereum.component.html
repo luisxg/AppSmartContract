@@ -1,0 +1,41 @@
+<div>
+    <img src="./assets/epmaps2.jpg" alt="logo epmaps" class="epmaps" />
+  
+    <div class="container">
+      <h1 class="title">Pago de Servicio de Agua Potable de Quito</h1>
+      <div>
+        <div class="form-group">
+          <div>
+            <label for="deposit_amount">Ingrese una cantidad</label>
+          </div>
+          <br />
+          <div class="input-cantidad">
+            <input
+              type="number"
+              class="form-control"
+              name="quantity"
+              min="0.01"
+              step="0.01"
+              (change)="depositAmount = $event.target.value"
+            />
+          </div>
+          <br />
+          <div>
+            <button type="button" (click)="depositar()">Depositar</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="balance">
+        <div class="titleBalance">
+          <h3 *ngIf="loadedBalance === true">Saldo : {{ balance }} Eth</h3>
+        </div>
+        <button type="button" (click)="updateBalance()" class="actualizar">
+          Actualizar
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
